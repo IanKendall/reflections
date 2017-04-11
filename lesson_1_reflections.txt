@@ -1,0 +1,20 @@
+Reflection: Manual Commits
+		GDauto	GitManual
+Clear reason	No	Yes
+May Forget	No	Yes
+
+Reflect: Multi-File Commits
+Git is for programmers
+Google Docs is for file editing.
+
+Reflect: Using Git to View History
+git log => commits with comments
+git diff serial58 serial59 => changes made between
+
+Reflect: Confidence from Version Control
+git checkout
+Version control allows you to got back in time to find the where bugs first emerged.
+
+Reflect:How Do You Want to Use Git?
+Want to us it for Android programming
+If something lost: git reset --hard
