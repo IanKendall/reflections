@@ -22,6 +22,9 @@ It offers the ability to track when new code or ideas were added or changed. Thi
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+1 Make one logical change at a time
+2 Stage all files were involved in this change
+use git diff and git diff --staged to ensure all modified files are included.
 
 
 
