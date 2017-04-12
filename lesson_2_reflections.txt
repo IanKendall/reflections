@@ -36,8 +36,10 @@ How would branches help?
 It allows you to move between different branches of code. without getting mixed up.
 
 
-
 How do the diagrams help you visualize the branch structure?
+It helps keep track of your current commit and those commits that cannot be seen from your current commit.
+
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
