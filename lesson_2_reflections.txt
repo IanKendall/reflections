@@ -21,7 +21,7 @@ What value do you think it offers?
 It offers the ability to track when new code or ideas were added or changed. This make it easier to link changes to effects.
 
 How can you use the staging area to make sure you have one commit per logical
-change?
+ change?
 1 Make one logical change at a time
 2 Stage all files were involved in this change
 use git diff and git diff --staged to ensure all modified files are included.
@@ -41,8 +41,16 @@ It helps keep track of your current commit and those commits that cannot be seen
 
 
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+What is the result of merging two branches together?
+Parents of commits are not obvious use "git show <commit id>"
+to remove branch "git branch -d coins"
+
+Why do we represent it in
+ the diagram the way we do?
+Each commit looks back to its parent commit so the arrow in the diagram always point back.
+The merged diagram can only rank in cronagraphical order but commits retain knowledge of their parents.
+
+
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
