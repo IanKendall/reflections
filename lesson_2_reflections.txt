@@ -52,5 +52,11 @@ The merged diagram can only rank in cronagraphical order but commits retain know
 
 
 
-What are the pros and cons of Git’s automatic merging vs. always doing merges
+What are the pros and cons of Git’s automatic merging vs. always doing merges 
 manually?
+
+Git's automatic merging only includes the code it is sure about.
+c1 Does not always complete the merge.
+p1 Is less likely to create buggy code from a merge.
+p1 This is still a lot less work than manual merging.
+c1 May mean that someone merging the code does not full understand it.
